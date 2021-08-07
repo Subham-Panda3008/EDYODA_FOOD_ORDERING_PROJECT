@@ -223,7 +223,7 @@ if __name__ == '__main__':
                  "10003":{"Name":"traffle cake","Quantity":"500 gram","Price":900,"Discount":0,"stock left":10}}
     main_input = 1
     while True:
-        print("Enter 1 for Admin and 2 for customer")
+        print("Enter 1 for Admin and 2 for customer  :  ")
         main_input=int(input())
         if main_input == 1:
             admin11 = admin()
@@ -232,5 +232,5 @@ if __name__ == '__main__':
             user11 = user()
             user11.login_user()
         else:
-            print("wrong input")
+            print(" wrong input ")
             continue
