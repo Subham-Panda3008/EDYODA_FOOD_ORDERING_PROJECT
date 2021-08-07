@@ -160,7 +160,7 @@ class admin:
         if x=="yes":
             self.admin_functions()
         else:
-            break
+            return
 
 
     def login_admin(self):
