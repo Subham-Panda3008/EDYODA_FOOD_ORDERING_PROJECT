@@ -39,7 +39,7 @@ class user:
 
 
     def email(self):
-        print("enter email address $$ email_address must start with an alphabet ,then it shoulh have one or more digit and  should have a domain @gmail.com $$")
+        print("enter email address $$note: email_address must start with an alphabet ,then it shoulh have one or more digit and  should have a domain @gmail.com $$")
         email_add=input()
         import re
         if email_add in list_of_email:
@@ -58,7 +58,7 @@ class user:
 
 
     def password(self):
-        print("enter your password $$notepassword must begin with an alphabet ,must contain one or more digit and a special character$$")
+        print("enter your password $$note: password must begin with an alphabet ,must contain one or more digit and a special character$$")
         word=input()
         import re
         if(re.search("[a-zA-Z]+[0-9]+.",word)):
